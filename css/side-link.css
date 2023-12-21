@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+/* **********************************************************************************
+********************************************************************************** */
+
+.container .section .main-link {
+    box-shadow: 0.02rem 0 0 0 #111;
+    margin: -2rem 1rem 0 0;
+    width: 12rem;
+}
+
+.container .section .main-link .links li.link {
+    margin-top: 0.5rem;
+    cursor: pointer;
+}
+
+.container .section .main-link li.link:hover a {
+    display: block;
+}
+
+.container .section .main-link li a {
+    color: blue;
+    display: none;
+}
+
+@media Screen and (max-width: 800px) {
+    .container .section .main-link {
+        display: none;
+    }
+}

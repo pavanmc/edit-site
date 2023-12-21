@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #footer {
+            bottom: 0;
+            width: 100%;
+            background: #111;
+            text-align: center;
+            padding-top: 1.5rem;
+            z-index: -1;
+        }
+        
+        #footer .social-links img {
+            width: 1.8rem;
+            padding: 0.2rem;
+            background: #fff;
+            border-radius: 50%;
+            margin: 0 0.5rem;
+        }
+        
+        #footer .menu-links {
+            margin: 1rem 0;
+        }
+        
+        #footer .menu-links a {
+            color: #fff;
+            text-decoration: solid;
+            margin: 0 0.8rem;
+        }
+        
+        #footer .copy-right {
+            background-color: #000;
+            padding: 0.5rem;
+        }
+        
+        #footer .copy-right a {
+            color: #fff;
+        }
+        
+        #footer .copy-right p {
+            font-size: 0.7rem;
+            color: #fff;
+        }
+        
+        @media (max-width: 350px) {
+            #footer .menu-links a {
+                margin: 0 0.2rem;
+                font-size: 0.8rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <footer id="footer">
+        <div class="social-links">
+            <a href="#"><img class="color" src="/images/youTube-b.png" alt="image" loading="lazy"></a>
+            <a href="#"><img class="color" src="/images/facebook-b.png" alt="image" loading="lazy"></a>
+            <a href="#"><img class="color" src="/images/instagram-b.png" alt="image" loading="lazy"></a>
+        </div>
+        <div class="menu-links">
+            <a href="/index.html">Home</a>
+            <a href="/blog.html">Blog</a>
+            <!-- <a href="/service.html">Services</a> -->
+            <a href="/about.html">About</a>
+            <a href="/contact.html">Contact</a>
+        </div>
+        <div class="copy-right">
+            <p> Copyright &copy; 2023 : <a href="/index.html">BrandName.com</a></p>
+        </div>
+    </footer>
+</body>
+
+</html>

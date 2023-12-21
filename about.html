@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <title>Document</title>
+    <style>
+        .container {
+            width: 100%;
+            margin-top: 10vh;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .container .banner img {
+            width: 100%;
+            height: 30vh;
+        }
+        
+        .container .about-section .about {
+            text-align: center;
+            margin: 2rem 4rem;
+            box-shadow: 0 0 0.3rem 0 black;
+            border-radius: 5%;
+            padding: 2rem;
+        }
+        
+        .container .about-section .about .h-img .about-img {
+            width: 8rem;
+            background-color: rgb(0, 0, 0);
+            border-radius: 50%;
+            box-shadow: 0 0 0.5rem 0 black;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+        }
+        
+        .container .about-section .about .h-img h3 a {
+            font-size: 1.6rem;
+            text-decoration: none;
+            box-shadow: 0 0 0.2rem 0 black;
+            border-radius: 0.5rem;
+            padding: 0.2rem 0.5rem;
+        }
+        
+        .container .about-section .about p {
+            margin: 2rem;
+        }
+        
+        .container .about-section .about .para0 {
+            font-size: 1.3rem;
+        }
+        
+        .container .about-section .about .para0 span {
+            font-size: 1.1rem;
+        }
+        
+        .container .about-section .about .para1 {
+            font-size: 1.1rem;
+        }
+        
+        .container .about-section .about .para1 span {
+            font-size: 1rem;
+        }
+        
+        .container .about-section .about .para2 {
+            font-size: 0.8rem;
+        }
+        
+        @media (max-width: 600px) {
+            .container .about-section .about {
+                margin: 1rem 0.5rem;
+                padding: 0.5rem;
+            }
+            .container .about-section .about .h-img .about-img {
+                width: 6rem;
+            }
+            .container .about-section .about .h-img h3 a {
+                font-size: 1.4rem;
+            }
+            .container .about-section .about p {
+                margin: 2rem 0.5rem;
+            }
+            .container .about-section .about .para0 span {
+                font-size: 1rem;
+            }
+            .container .about-section .about .para1 span {
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="head-content"></div>
+
+    <!-- **************************************************************************************************
+****************************************** Body-Section ******************************************
+************************************************************************************************** -->
+
+    <div class="container">
+        <div class="banner">
+            <img src="/images/tec.jpg" alt="image" loading="lazy">
+        </div>
+        <section class="about-section">
+            <div class="about">
+                <div class="h-img">
+                    <img class="about-img" src="/images/logo.png" alt="image" loading="lazy">
+                    <h3><a href="/index.html">BrandName.com</a></h3>
+                </div>
+                <p class="para0"> * <span> Your Visit to My Website is Much Appreciated. </span> * </p>
+                <!-- <span>*</span> -->
+                <p class="para1"> * <span> This is created for learning and acquiring more knowledge about the Global World. </span> * </p>
+                <!-- <span>*</span> -->
+                <p class="para2">" This platform offers information on various topics, including Health, Wealth, Education, Entertainment, General Knowledge, Politics, Country Information, Human Rights, Jobs, Best Of, Hacks, and more. "</p>
+            </div>
+        </section>
+    </div>
+
+    <!-- **************************************************************************************************
+****************************************** Footer-Section ******************************************
+************************************************************************************************** -->
+
+    <div id="foot-content"></div>
+
+    <!-- ************************************** Java-Script-Section ************************************ -->
+
+    <script type="text/javascript">
+        $('#head-content').load('/header.html');
+        $('#foot-content').load('/footer.html');
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <title>CodingShoding with NJ</title>
+    <link rel="stylesheet" href="common.css">
+</head>
+
+<body>
+
+    <div id="head-content"></div>
+
+    <!-- **************************************************************************************************
+****************************************** Body-Section ******************************************
+************************************************************************************************** -->
+
+    <section>
+        <h1>How To Include One HTML File Into Another Without Any Framework Or Library</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quas sed exercitationem ut repudiandae magnam tenetur doloremque ducimus modi sunt cupiditate eaque illo, mollitia maxime quaerat vel natus atque doloribus veniam reiciendis, id
+            a ab! Ratione repellendus ut saepe fugit.</p>
+    </section>
+    <section>
+        <h1>Service Page</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit deserunt accusamus inventore quisquam vel. Harum consequatur minima distinctio. Dolorem, aliquam!</p>
+    </section>
+
+    <!-- **************************************************************************************************
+****************************************** Footer-Section ******************************************
+************************************************************************************************** -->
+
+    <div id="foot-content"></div>
+
+    <!-- ************************************** Java-Script-Section ************************************ -->
+
+    <script type="text/javascript">
+        $('#head-content').load('/header.html');
+        $('#foot-content').load('/footer.html');
+    </script>
+</body>
+
+</html>
