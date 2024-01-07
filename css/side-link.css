@@ -24,8 +24,7 @@ li {
 ********************************************************************************** */
 
 .container .section .main-link {
-    box-shadow: 0.02rem 0 0 0 #111;
-    margin: -2rem 1rem 0 0;
+    margin: -1rem 0 0 1rem;
     width: 12rem;
 }
 

@@ -23,9 +23,21 @@ li {
 /* **********************************************************************************
 ********************************************************************************** */
 
-.container .food-section {
-    font-size: 0.8rem;
+.container {
+    margin-top: 8vh;
+    display: flex;
 }
+
+.container .food-section {
+    padding: 1rem;
+    border-left: 0.1rem solid black;
+    border-right: 0.1rem solid black;
+}
+
+
+/* .container .food-section {
+    font-size: 0.8rem;
+} */
 
 .container .food-section h1.main {
     font-size: 2rem;
